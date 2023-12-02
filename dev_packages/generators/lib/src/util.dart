@@ -3,7 +3,7 @@ import 'package:source_gen/source_gen.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:analyzer/dart/element/nullability_suffix.dart';
 import 'package:analyzer/dart/constant/value.dart';
-import 'package:flutter_inappwebview_internal_annotations/flutter_inappwebview_internal_annotations.dart';
+import 'package:flutter_adeeinappwebview_internal_annotations/flutter_adeeinappwebview_internal_annotations.dart';
 
 final _coreCheckerObjectMethod =
     const TypeChecker.fromRuntime(ExchangeableObjectMethod);

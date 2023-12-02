@@ -9,4 +9,4 @@ dartfmt -w .
 cd $PROJECT_DIR
 flutter analyze
 flutter pub publish --dry-run
-flutter pub publish
+#flutter pub publish

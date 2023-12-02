@@ -3,7 +3,7 @@ import 'package:analyzer/dart/element/element.dart';
 import 'package:analyzer/dart/analysis/results.dart';
 import 'package:analyzer/dart/element/type.dart';
 import 'package:source_gen/source_gen.dart';
-import 'package:flutter_inappwebview_internal_annotations/flutter_inappwebview_internal_annotations.dart';
+import 'package:flutter_adeeinappwebview_internal_annotations/flutter_adeeinappwebview_internal_annotations.dart';
 
 import 'model_visitor.dart';
 import 'util.dart';
@@ -355,10 +355,13 @@ class ExchangeableObjectGenerator
           final constructorParameter = visitor.constructorParameters[fieldName];
           final isRequiredParameter = constructorParameter != null &&
               (constructorParameter.isRequiredNamed ||
-                  constructorParameter.isFinal || fieldElement.isFinal ||
+                  constructorParameter.isFinal ||
+                  fieldElement.isFinal ||
                   !Util.typeIsNullable(constructorParameter.type)) &&
               !constructorParameter.hasDefaultValue;
-          if (isRequiredParameter || fieldElement.isFinal || annotation.read("fromMapForceAllInline").boolValue) {
+          if (isRequiredParameter ||
+              fieldElement.isFinal ||
+              annotation.read("fromMapForceAllInline").boolValue) {
             requiredFields.add('$fieldName: $value,');
           } else {
             nonRequiredFields.add("instance.$fieldName = $value;");
