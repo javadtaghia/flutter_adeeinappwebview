@@ -1,7 +1,7 @@
 name: flutter_adeeinappwebview_platform_interface
 description: A common platform interface for the flutter_adeeinappwebview plugin.
 version: 1.0.4
-homepage: https://inappwebview.dev/
+homepage: https://adee.ai/
 repository: https://github.com/javadtaghia/flutter_adeeinappwebview/tree/master/flutter_adeeinappwebview_platform_interface
 issue_tracker: https://github.com/javadtaghia/flutter_adeeinappwebview/issues
 topics:

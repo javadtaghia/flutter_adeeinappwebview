@@ -1,3 +1,6 @@
+## 6.0.0-beta.32
+ - Updated after update to adee.ai
+
 ## 6.0.0-beta.31
 
 - Update the android to the newer version.

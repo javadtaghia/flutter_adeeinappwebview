@@ -1,6 +1,6 @@
 name: flutter_adeeinappwebview_android
 description: Android implementation of the flutter_adeeinappwebview plugin.
-version: 1.0.5
+version: 1.0.6
 homepage: https://inappwebview.dev/
 repository: https://github.com/javadtaghia/flutter_adeeinappwebview/tree/master/flutter_adeeinappwebview_android
 issue_tracker: https://github.com/javadtaghia/flutter_adeeinappwebview/issues

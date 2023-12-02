@@ -1,3 +1,9 @@
+## 1.0.6
+ - Updated after update to adee.ai (2)
+
+## 1.0.5
+ - Updated after update to adee.ai
+
 ## 1.0.4
 
 - Throw platform exception when ProcessGlobalConfig.apply throws an error on the native side to be able to catch it on Flutter side

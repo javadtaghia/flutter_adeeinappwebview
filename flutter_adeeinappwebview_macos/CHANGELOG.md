@@ -1,3 +1,7 @@
+## 1.0.3
+
+ - Updated after update to adee.ai
+
 ## 1.0.2
 
 - Fixed "Cloudflare Turnstile failure" [#1738](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/1738)
