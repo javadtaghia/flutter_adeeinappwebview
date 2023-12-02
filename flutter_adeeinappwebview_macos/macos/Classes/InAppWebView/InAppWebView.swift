@@ -13,7 +13,7 @@ public class InAppWebView: WKWebView, WKUIDelegate,
                             WKNavigationDelegate, WKScriptMessageHandler,
                             WKDownloadDelegate,
                             Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_adeeinappwebview_"
+    static var METHOD_CHANNEL_NAME_PREFIX = "ai.adee/flutter_adeeinappwebview_"
 
     var id: Any? // viewId
     var plugin: InAppWebViewFlutterPlugin?

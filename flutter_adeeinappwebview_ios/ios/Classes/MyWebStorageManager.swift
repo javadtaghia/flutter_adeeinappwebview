@@ -10,7 +10,7 @@ import WebKit
 
 @available(iOS 9.0, *)
 public class MyWebStorageManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_adeeinappwebview_webstoragemanager"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_adeeinappwebview_webstoragemanager"
     var plugin: SwiftFlutterPlugin?
     static var websiteDataStore = WKWebsiteDataStore.default()
     

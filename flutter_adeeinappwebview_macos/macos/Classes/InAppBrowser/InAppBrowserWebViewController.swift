@@ -11,7 +11,7 @@ import WebKit
 import Foundation
 
 public class InAppBrowserWebViewController: NSViewController, InAppBrowserDelegate, Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_inappbrowser_";
+    static var METHOD_CHANNEL_NAME_PREFIX = "ai.adee/flutter_inappbrowser_";
 
     var progressBar: NSProgressIndicator!
     

@@ -38,7 +38,7 @@ class AndroidHttpAuthCredentialDatabase
                   .fromPlatformHttpAuthCredentialDatabaseCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_credential_database');
+        'ai.adee/flutter_adeeinappwebview_credential_database');
     handler = handleMethod;
     initMethodCallHandler();
   }

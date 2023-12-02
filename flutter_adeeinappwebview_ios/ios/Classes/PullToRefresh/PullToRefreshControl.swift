@@ -9,7 +9,7 @@ import Foundation
 import Flutter
 
 public class PullToRefreshControl : UIRefreshControl, Disposable {
-    static var METHOD_CHANNEL_NAME_PREFIX = "com.pichillilorenzo/flutter_adeeinappwebview_pull_to_refresh_";
+    static var METHOD_CHANNEL_NAME_PREFIX = "ai.adee/flutter_adeeinappwebview_pull_to_refresh_";
     var plugin: SwiftFlutterPlugin?
     var channelDelegate: PullToRefreshChannelDelegate?
     var settings: PullToRefreshSettings?

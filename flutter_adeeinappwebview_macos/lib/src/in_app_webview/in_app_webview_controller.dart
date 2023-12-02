@@ -97,7 +97,7 @@ class MacOSInAppWebViewController extends PlatformInAppWebViewController
             ? params
             : MacOSInAppWebViewControllerCreationParams
                 .fromPlatformInAppWebViewControllerCreationParams(params)) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_adeeinappwebview_$id');
+    channel = MethodChannel('ai.adee/flutter_adeeinappwebview_$id');
     handler = handleMethod;
     initMethodCallHandler();
 

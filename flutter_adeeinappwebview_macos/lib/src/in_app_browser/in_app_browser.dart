@@ -69,7 +69,7 @@ class MacOSInAppBrowser extends PlatformInAppBrowser with ChannelController {
       params as MacOSInAppBrowserCreationParams;
 
   static const MethodChannel _staticChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_inappbrowser');
+      const MethodChannel('ai.adee/flutter_inappbrowser');
 
   ContextMenu? _contextMenu;
 
@@ -86,7 +86,7 @@ class MacOSInAppBrowser extends PlatformInAppBrowser with ChannelController {
   }
 
   _init() {
-    channel = MethodChannel('com.pichillilorenzo/flutter_inappbrowser_$id');
+    channel = MethodChannel('ai.adee/flutter_inappbrowser_$id');
     handler = _handleMethod;
     initMethodCallHandler();
 

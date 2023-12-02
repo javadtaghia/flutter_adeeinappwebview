@@ -36,8 +36,8 @@ class AndroidWebViewFeature extends PlatformWebViewFeature
               : AndroidWebViewFeatureCreationParams
                   .fromPlatformWebViewFeatureCreationParams(params),
         ) {
-    channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_webviewfeature');
+    channel =
+        const MethodChannel('ai.adee/flutter_adeeinappwebview_webviewfeature');
     handler = handleMethod;
     initMethodCallHandler();
   }

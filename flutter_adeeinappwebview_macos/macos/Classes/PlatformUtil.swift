@@ -9,7 +9,7 @@ import Foundation
 import FlutterMacOS
 
 public class PlatformUtil: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_adeeinappwebview_platformutil"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_adeeinappwebview_platformutil"
     var plugin: InAppWebViewFlutterPlugin?
     
     init(plugin: InAppWebViewFlutterPlugin) {

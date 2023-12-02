@@ -42,7 +42,7 @@ class IOSWebMessageChannel extends PlatformWebMessageChannel
                   .fromPlatformWebMessageChannelCreationParams(params),
         ) {
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_web_message_channel_${params.id}');
+        'ai.adee/flutter_adeeinappwebview_web_message_channel_${params.id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

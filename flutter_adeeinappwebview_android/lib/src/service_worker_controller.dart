@@ -38,7 +38,7 @@ class AndroidServiceWorkerController extends PlatformServiceWorkerController
                   .fromPlatformServiceWorkerControllerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_serviceworkercontroller');
+        'ai.adee/flutter_adeeinappwebview_serviceworkercontroller');
     handler = handleMethod;
     initMethodCallHandler();
   }

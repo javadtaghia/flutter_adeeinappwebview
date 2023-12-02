@@ -1,6 +1,6 @@
 name: flutter_adeeinappwebview
 description: A Flutter plugin that allows you to add an inline webview, to use an headless webview, and to open an in-app browser window.
-version: 6.0.0-beta.30
+version: 6.0.0-beta.31
 homepage: https://inappwebview.dev/
 repository: https://github.com/javadtaghia/flutter_adeeinappwebview
 issue_tracker: https://github.com/javadtaghia/flutter_adeeinappwebview/issues
@@ -19,7 +19,7 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_adeeinappwebview_platform_interface: ^1.0.2
-  flutter_adeeinappwebview_android: ^1.0.2
+  flutter_adeeinappwebview_android: ^1.0.5
   flutter_adeeinappwebview_ios: ^1.0.2
   flutter_adeeinappwebview_macos: ^1.0.1
   flutter_adeeinappwebview_web: ^1.0.1

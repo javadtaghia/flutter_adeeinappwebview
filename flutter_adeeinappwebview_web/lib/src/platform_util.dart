@@ -3,8 +3,8 @@ import 'package:flutter/services.dart';
 ///Platform native utilities
 class PlatformUtil {
   static PlatformUtil? _instance;
-  static const MethodChannel _channel = MethodChannel(
-      'com.pichillilorenzo/flutter_adeeinappwebview_platformutil');
+  static const MethodChannel _channel =
+      MethodChannel('ai.adee/flutter_adeeinappwebview_platformutil');
 
   PlatformUtil._();
 

@@ -57,7 +57,7 @@ class WebPlatformInAppWebViewController extends PlatformInAppWebViewController
                 ? params
                 : WebPlatformInAppWebViewControllerCreationParams
                     .fromPlatformInAppWebViewControllerCreationParams(params)) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_adeeinappwebview_$id');
+    channel = MethodChannel('ai.adee/flutter_adeeinappwebview_$id');
     handler = handleMethod;
     initMethodCallHandler();
 

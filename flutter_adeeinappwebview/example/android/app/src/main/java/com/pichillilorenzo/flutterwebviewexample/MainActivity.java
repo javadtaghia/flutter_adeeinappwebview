@@ -1,4 +1,4 @@
-package com.pichillilorenzo.flutterwebviewexample;
+package ai.adee.flutterwebviewexample;
 
 import io.flutter.embedding.android.FlutterActivity;
 

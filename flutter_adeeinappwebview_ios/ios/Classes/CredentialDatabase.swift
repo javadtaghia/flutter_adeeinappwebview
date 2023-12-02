@@ -8,7 +8,7 @@
 import Foundation
 
 public class CredentialDatabase: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_adeeinappwebview_credential_database"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_adeeinappwebview_credential_database"
     var plugin: SwiftFlutterPlugin?
     static var credentialStore = URLCredentialStorage.shared
 

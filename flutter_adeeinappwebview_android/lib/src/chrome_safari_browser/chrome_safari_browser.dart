@@ -54,11 +54,10 @@ class AndroidChromeSafariBrowser extends PlatformChromeSafariBrowser
   ChromeSafariBrowserSecondaryToolbar? _secondaryToolbar;
   bool _isOpened = false;
   static const MethodChannel _staticChannel =
-      const MethodChannel('com.pichillilorenzo/flutter_chromesafaribrowser');
+      const MethodChannel('ai.adee/flutter_chromesafaribrowser');
 
   _init() {
-    channel =
-        MethodChannel('com.pichillilorenzo/flutter_chromesafaribrowser_$id');
+    channel = MethodChannel('ai.adee/flutter_chromesafaribrowser_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }

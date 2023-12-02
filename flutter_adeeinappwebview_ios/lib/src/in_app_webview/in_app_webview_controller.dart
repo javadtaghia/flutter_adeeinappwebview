@@ -96,7 +96,7 @@ class IOSInAppWebViewController extends PlatformInAppWebViewController
             ? params
             : IOSInAppWebViewControllerCreationParams
                 .fromPlatformInAppWebViewControllerCreationParams(params)) {
-    channel = MethodChannel('com.pichillilorenzo/flutter_adeeinappwebview_$id');
+    channel = MethodChannel('ai.adee/flutter_adeeinappwebview_$id');
     handler = handleMethod;
     initMethodCallHandler();
 

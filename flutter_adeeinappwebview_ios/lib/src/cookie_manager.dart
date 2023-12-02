@@ -40,8 +40,8 @@ class IOSCookieManager extends PlatformCookieManager with ChannelController {
               : IOSCookieManagerCreationParams
                   .fromPlatformCookieManagerCreationParams(params),
         ) {
-    channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_cookiemanager');
+    channel =
+        const MethodChannel('ai.adee/flutter_adeeinappwebview_cookiemanager');
     handler = handleMethod;
     initMethodCallHandler();
   }

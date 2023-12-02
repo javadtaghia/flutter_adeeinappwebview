@@ -140,8 +140,8 @@ class IOSFindInteractionController extends PlatformFindInteractionController
 
 extension InternalFindInteractionController on IOSFindInteractionController {
   void init(dynamic id) {
-    channel = MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_find_interaction_$id');
+    channel =
+        MethodChannel('ai.adee/flutter_adeeinappwebview_find_interaction_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }

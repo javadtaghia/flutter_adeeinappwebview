@@ -50,7 +50,7 @@ class MacOSWebMessageListener extends PlatformWebMessageListener
     assert(!this._macosParams.allowedOriginRules.contains(""),
         "allowedOriginRules cannot contain empty strings");
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_web_message_listener_${_id}_${params.jsObjectName}');
+        'ai.adee/flutter_adeeinappwebview_web_message_listener_${_id}_${params.jsObjectName}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

@@ -38,7 +38,7 @@ class IOSWebStorageManager extends PlatformWebStorageManager
                   .fromPlatformWebStorageManagerCreationParams(params),
         ) {
     channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_webstoragemanager');
+        'ai.adee/flutter_adeeinappwebview_webstoragemanager');
     handler = handleMethod;
     initMethodCallHandler();
   }

@@ -36,8 +36,8 @@ class AndroidProxyController extends PlatformProxyController
               : AndroidProxyControllerCreationParams
                   .fromPlatformProxyControllerCreationParams(params),
         ) {
-    channel = const MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_proxycontroller');
+    channel =
+        const MethodChannel('ai.adee/flutter_adeeinappwebview_proxycontroller');
     handler = handleMethod;
     initMethodCallHandler();
   }

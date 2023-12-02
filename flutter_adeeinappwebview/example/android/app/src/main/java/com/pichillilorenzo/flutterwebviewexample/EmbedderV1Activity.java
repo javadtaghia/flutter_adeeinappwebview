@@ -1,7 +1,7 @@
-package com.pichillilorenzo.flutterwebviewexample;
+package ai.adee.flutterwebviewexample;
 
 import android.os.Bundle;
-import com.pichillilorenzo.flutter_adeeinappwebview_android.InAppWebViewFlutterPlugin;
+import ai.adee.flutter_adeeinappwebview_android.InAppWebViewFlutterPlugin;
 
 @SuppressWarnings("deprecation")
 public class EmbedderV1Activity extends io.flutter.app.FlutterActivity {
@@ -9,6 +9,6 @@ public class EmbedderV1Activity extends io.flutter.app.FlutterActivity {
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     InAppWebViewFlutterPlugin.registerWith(
-            registrarFor("com.pichillilorenzo.flutter_adeeinappwebview.InAppWebViewFlutterPlugin"));
+            registrarFor("ai.adee.flutter_adeeinappwebview.InAppWebViewFlutterPlugin"));
   }
 }

@@ -13,7 +13,7 @@ import AVFoundation
 import SafariServices
 
 public class WebAuthenticationSessionManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_webauthenticationsession"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_webauthenticationsession"
     var plugin: InAppWebViewFlutterPlugin?
     var sessions: [String: WebAuthenticationSession?] = [:]
     

@@ -1,4 +1,4 @@
 import 'package:flutter/services.dart';
 
 const IN_APP_WEBVIEW_STATIC_CHANNEL =
-    const MethodChannel('com.pichillilorenzo/flutter_adeeinappwebview_manager');
+    const MethodChannel('ai.adee/flutter_adeeinappwebview_manager');

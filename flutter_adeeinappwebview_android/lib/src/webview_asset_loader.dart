@@ -38,7 +38,7 @@ abstract class AndroidPathHandler
   void _init(PlatformPathHandlerCreationParams params) {
     this.path = params.path;
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_custompathhandler_${_id}');
+        'ai.adee/flutter_adeeinappwebview_custompathhandler_${_id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

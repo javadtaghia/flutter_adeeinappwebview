@@ -10,7 +10,7 @@ import WebKit
 
 @available(iOS 11.0, *)
 public class MyCookieManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_adeeinappwebview_cookiemanager"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_adeeinappwebview_cookiemanager"
     var plugin: SwiftFlutterPlugin?
     static var httpCookieStore = WKWebsiteDataStore.default().httpCookieStore
     

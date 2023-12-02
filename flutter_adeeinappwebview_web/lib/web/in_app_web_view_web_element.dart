@@ -42,7 +42,7 @@ class InAppWebViewWebElement implements Disposable {
     iframeContainer.append(iframe);
 
     _channel = MethodChannel(
-      'com.pichillilorenzo/flutter_adeeinappwebview_$_viewId',
+      'ai.adee/flutter_adeeinappwebview_$_viewId',
       const StandardMethodCodec(),
       _messenger,
     );

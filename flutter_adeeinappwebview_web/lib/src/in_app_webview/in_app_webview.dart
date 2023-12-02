@@ -285,7 +285,7 @@ class WebPlatformInAppWebViewWidget extends PlatformInAppWebViewWidget {
     }
 
     return HtmlElementView(
-      viewType: 'com.pichillilorenzo/flutter_adeeinappwebview',
+      viewType: 'ai.adee/flutter_adeeinappwebview',
       onPlatformViewCreated: (int viewId) {
         var webViewHtmlElement = WebPlatformManager.webViews[viewId]!;
         webViewHtmlElement.initialSettings = initialSettings;

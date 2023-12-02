@@ -303,7 +303,7 @@ class MacOSInAppWebViewWidget extends PlatformInAppWebViewWidget {
     }
 
     return UiKitView(
-      viewType: 'com.pichillilorenzo/flutter_adeeinappwebview',
+      viewType: 'ai.adee/flutter_adeeinappwebview',
       onPlatformViewCreated: _onPlatformViewCreated,
       gestureRecognizers: _macosParams.gestureRecognizers,
       creationParams: <String, dynamic>{

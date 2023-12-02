@@ -15,8 +15,8 @@ import 'package:js/js.dart';
 class InAppWebViewFlutterPlugin {
   /// Constructs a new instance of [InAppWebViewFlutterPlugin].
   InAppWebViewFlutterPlugin(Registrar registrar) {
-    platformViewRegistry.registerViewFactory(
-        'com.pichillilorenzo/flutter_adeeinappwebview', (int viewId) {
+    platformViewRegistry.registerViewFactory('ai.adee/flutter_adeeinappwebview',
+        (int viewId) {
       var webView =
           InAppWebViewWebElement(viewId: viewId, messenger: registrar);
       WebPlatformManager.webViews.putIfAbsent(viewId, () => webView);

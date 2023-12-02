@@ -37,7 +37,7 @@ class IOSPrintJobController extends PlatformPrintJobController
         ) {
     onComplete = params.onComplete;
     channel = MethodChannel(
-        'com.pichillilorenzo/flutter_adeeinappwebview_printjobcontroller_${params.id}');
+        'ai.adee/flutter_adeeinappwebview_printjobcontroller_${params.id}');
     handler = _handleMethod;
     initMethodCallHandler();
   }

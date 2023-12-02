@@ -1,4 +1,4 @@
-group 'com.pichillilorenzo.flutter_adeeinappwebview_android'
+group 'ai.adee.flutter_adeeinappwebview_android'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -24,7 +24,7 @@ apply plugin: 'com.android.library'
 android {
     // Conditional for compatibility with AGP <4.2.
     if (project.android.hasProperty("namespace")) {
-        namespace 'com.pichillilorenzo.flutter_adeeinappwebview_android'
+        namespace 'ai.adee.flutter_adeeinappwebview_android'
     }
     compileSdkVersion 33
 

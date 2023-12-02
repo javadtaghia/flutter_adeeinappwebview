@@ -97,11 +97,11 @@ class _ChromeSafariBrowserExampleScreenState
                           AndroidResource.anim(
                               name: "abc_slide_in_top",
                               defPackage:
-                                  "com.pichillilorenzo.flutter_adeeinappwebviewexample"),
+                                  "ai.adee.flutter_adeeinappwebviewexample"),
                           AndroidResource.anim(
                               name: "abc_slide_out_top",
                               defPackage:
-                                  "com.pichillilorenzo.flutter_adeeinappwebviewexample")
+                                  "ai.adee.flutter_adeeinappwebviewexample")
                         ],
                         dismissButtonStyle: DismissButtonStyle.CLOSE,
                         presentationStyle:

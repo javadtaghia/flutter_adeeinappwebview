@@ -1,6 +1,6 @@
 <div align="center">
 
-# Flutter InAppWebView Plugin [![Share on Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Flutter%20InAppBrowser%20plugin!&url=https://github.com/javadtaghia/flutter_adeeinappwebview&hashtags=flutter,flutterio,dart,dartlang,webview) [![Share on Facebook](https://img.shields.io/badge/share-facebook-blue.svg?longCache=true&style=flat&colorB=%234267b2)](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/pichillilorenzo/flutter_adeeinappwebview)
+# Flutter InAppWebView Plugin [![Share on Twitter](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Flutter%20InAppBrowser%20plugin!&url=https://github.com/javadtaghia/flutter_adeeinappwebview&hashtags=flutter,flutterio,dart,dartlang,webview) [![Share on Facebook](https://img.shields.io/badge/share-facebook-blue.svg?longCache=true&style=flat&colorB=%234267b2)](https://www.facebook.com/sharer/sharer.php?u=https%3A//github.com/javadtaghia/flutter_adeeinappwebview)
 
 ![InAppWebView-logo](https://user-images.githubusercontent.com/5956938/195422744-bdcfed16-73f0-4bc9-94ab-ecf10771a1c4.png)
 
@@ -16,8 +16,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](/LICENSE)
 
 [![Donate to this project](https://img.shields.io/badge/support-donate-yellow.svg)](https://inappwebview.dev/donate/)
-[![GitHub forks](https://img.shields.io/github/forks/pichillilorenzo/flutter_adeeinappwebview?style=social)](https://github.com/javadtaghia/flutter_adeeinappwebview)
-[![GitHub stars](https://img.shields.io/github/stars/pichillilorenzo/flutter_adeeinappwebview?style=social)](https://github.com/javadtaghia/flutter_adeeinappwebview)
+[![GitHub forks](https://img.shields.io/github/forks/javadtaghia/flutter_adeeinappwebview?style=social)](https://github.com/javadtaghia/flutter_adeeinappwebview)
+[![GitHub stars](https://img.shields.io/github/stars/javadtaghia/flutter_adeeinappwebview?style=social)](https://github.com/javadtaghia/flutter_adeeinappwebview)
 
 A Flutter plugin that allows you to add an inline webview, to use an headless webview, and to open an in-app browser window.
 
@@ -35,7 +35,7 @@ Migrating from version `5.x.x` is easy! Follow the online [Migration guide](http
 - Find open source projects on the [Official Showcase page: inappwebview.dev/showcase](https://inappwebview.dev/showcase/)
 - Check the [flutter_adeeinappwebview_examples](https://github.com/javadtaghia/flutter_adeeinappwebview_examples) repository for project examples
 - Check the [flutter_adeeinappwebview/example/integration_test/webview_flutter_test.dart](https://github.com/javadtaghia/flutter_adeeinappwebview/blob/master/flutter_adeeinappwebview/example/integration_test/webview_flutter_test.dart) file for other code examples
-- [Flutter Browser App](https://github.com/pichillilorenzo/flutter_browser_app): A Full-Featured Mobile Browser App (such as the Google Chrome mobile browser) created using Flutter and the features offered by the flutter_adeeinappwebview plugin
+- [Flutter Browser App](https://github.com/javadtaghia/flutter_browser_app): A Full-Featured Mobile Browser App (such as the Google Chrome mobile browser) created using Flutter and the features offered by the flutter_adeeinappwebview plugin
 
 ## Showcase - Who use it
 

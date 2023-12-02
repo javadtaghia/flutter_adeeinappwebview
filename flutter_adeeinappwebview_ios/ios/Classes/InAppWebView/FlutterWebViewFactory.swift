@@ -9,7 +9,7 @@ import Flutter
 import Foundation
 
 public class FlutterWebViewFactory: NSObject, FlutterPlatformViewFactory {
-    static let VIEW_TYPE_ID = "com.pichillilorenzo/flutter_adeeinappwebview"
+    static let VIEW_TYPE_ID = "ai.adee/flutter_adeeinappwebview"
     
     private var plugin: SwiftFlutterPlugin
     

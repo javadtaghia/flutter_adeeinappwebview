@@ -11,7 +11,7 @@ import FlutterMacOS
 
 @available(macOS 10.13, *)
 public class MyCookieManager: ChannelDelegate {
-    static let METHOD_CHANNEL_NAME = "com.pichillilorenzo/flutter_adeeinappwebview_cookiemanager"
+    static let METHOD_CHANNEL_NAME = "ai.adee/flutter_adeeinappwebview_cookiemanager"
     var plugin: InAppWebViewFlutterPlugin?
     static var httpCookieStore = WKWebsiteDataStore.default().httpCookieStore
     

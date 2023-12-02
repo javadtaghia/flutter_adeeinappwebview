@@ -1,3 +1,7 @@
+## 6.0.0-beta.31
+
+- Update the android to the newer version.
+
 ## 6.0.0-beta.30
 
 - Updated minimum platform interface and implementation versions
@@ -9,7 +13,7 @@
 
 - Plugin conversion to a [Federated Plugin](https://docs.flutter.dev/packages-and-plugins/developing-packages#federated-plugins) to better support multiple environments and implementations.
 - Dart SDK min version `>= 2.17.0`
-- Android package name has been changed to `com.pichillilorenzo.flutter_adeeinappwebview_android`. References to old package name `com.pichillilorenzo.flutter_adeeinappwebview` should be updated, for example inside `AndroidManifest.xml` file: `<provider android:name="com.pichillilorenzo.flutter_adeeinappwebview_android.InAppWebViewFileProvider" android:authorities="${applicationId}.flutter_adeeinappwebview_android.fileprovider" ...`
+- Android package name has been changed to `ai.adee.flutter_adeeinappwebview_android`. References to old package name `ai.adee.flutter_adeeinappwebview` should be updated, for example inside `AndroidManifest.xml` file: `<provider android:name="ai.adee.flutter_adeeinappwebview_android.InAppWebViewFileProvider" android:authorities="${applicationId}.flutter_adeeinappwebview_android.fileprovider" ...`
 - Web Platform: `web_support.js` file path has been changed to `packages/flutter_adeeinappwebview_web/assets/web/web_support.js`
 
 ## 6.0.0-beta.28
@@ -491,7 +495,7 @@
 - Fixed "Crash at HeadlessInAppWebView dispose" [#881](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/881)
 - Fixed "Crash happens when HeadlessInAppWebView's dispose function is called in iOS" [#972](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/972)
 - Fixed "In android, when click a href with img returns img src on onCreateWindow" [#951](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/951)
-- Fixed "crash at com.pichillilorenzo.flutter_adeeinappwebview.in_app_webview.InAppWebView$11.run (InAppWebView.java:1307)" [#1040](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/1040)
+- Fixed "crash at ai.adee.flutter_adeeinappwebview.in_app_webview.InAppWebView$11.run (InAppWebView.java:1307)" [#1040](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/1040)
 - Fixed "Unexpected behavior when using a null initialUrlRequest" [#1063](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/1063)
 - Fixed "Local storage & cookie didn't persist when sharedCookie and cache both enabled" [#1092](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/1092)
 - Fixed "ios zoomBy crash: Foundation/NSNumber.swift:467: Fatal error: Unable to bridge NSNumber to Float" [#873](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/873)
@@ -547,7 +551,7 @@
 - `getScale` WebView method is now deprecated. Use the new `getZoomScale` WebView method
 - Removed `final` keyword for all `HeadlessInAppWebView` events
 - Fixed wrong usage of Android WebView scale property
-- Fixed "java.lang.NullPointerException: com.pichillilorenzo.flutter_adeeinappwebview.in_app_webview.InAppWebViewRenderProcessClient$1.success(InAppWebViewRenderProcessClient.java:37)" [#757](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/757)
+- Fixed "java.lang.NullPointerException: ai.adee.flutter_adeeinappwebview.in_app_webview.InAppWebViewRenderProcessClient$1.success(InAppWebViewRenderProcessClient.java:37)" [#757](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/757)
 - Fixed "In a multi-activity app, the plugin doesn't reattach to the first activity" [#732](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/732)
 - Fixed "ChromeSafariBrowser isn't calling its events, and not keeping track of isOpen properly" [#759](https://github.com/javadtaghia/flutter_adeeinappwebview/issues/759)
 - Fixed Android ChromeSafariBrowser menu item callback not called because of PendingIntents extra were cached

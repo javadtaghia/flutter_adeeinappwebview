@@ -59,8 +59,8 @@ class MacOSWebAuthenticationSession extends PlatformWebAuthenticationSession
   @override
   late final WebAuthenticationSessionCompletionHandler onComplete;
 
-  static const MethodChannel _staticChannel = const MethodChannel(
-      'com.pichillilorenzo/flutter_webauthenticationsession');
+  static const MethodChannel _staticChannel =
+      const MethodChannel('ai.adee/flutter_webauthenticationsession');
 
   @override
   Future<MacOSWebAuthenticationSession> create(
@@ -96,8 +96,7 @@ class MacOSWebAuthenticationSession extends PlatformWebAuthenticationSession
 
     this.initialSettings =
         initialSettings ?? WebAuthenticationSessionSettings();
-    channel = MethodChannel(
-        'com.pichillilorenzo/flutter_webauthenticationsession_$id');
+    channel = MethodChannel('ai.adee/flutter_webauthenticationsession_$id');
     handler = _handleMethod;
     initMethodCallHandler();
   }
